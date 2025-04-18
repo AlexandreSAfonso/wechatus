@@ -4,49 +4,61 @@
 
 Create a minimum Online Chat project to undestend arcteture with
 
-Python Django
-ORM
-Bootstrap
-Firebase
+- Python Django
+- ORM
+- Bootstrap
+- Firebase
 
 
-Online chat with
+### Online chat with
 
-Backend Content
- - User
- - Room
- - Message
+    Backend Content
+    - User
+    - Room
+    - Message
 
-Front End
-- Bootstrap 5.2 Frontend Single page Application
-- Real Time Database Firebase
+    Front End
+    - Bootstrap 5.2 Frontend Single page Application
+    - Real Time Database Firebase
 
-Baseed on 
+### Baseed on 
 
     https://www.youtube.com/watch?v=FN7_MV6cr4E
 
     https://www.youtube.com/watch?v=dHZDqPLGOIk    
 
 
-support material
+### support material
+
 https://www.python.org/
+
 https://www.djangoproject.com/start/overview/
+
 https://djangowaves.com/tips-tricks/gitignore-for-a-django-project/
 
+Original source code on https://github.com/Iazzetta/chat-online
 
-command to create a project
+### Command to create a project
 
 we recomend a virtual env or dockercontainer for developer
 
+Install Django
+
     pip install Django
 
-    django-admin startproject wechatus .
+Start a Project
+
+    django-admin startproject [Project Name] .
+
+Execute Migrations
 
     python manage.py migrate 
 
-    or
+or Create Migrations
 
     python manage.py makemigrations
+
+Create Super User
 
     python manage.py createsuperuser
 
@@ -59,4 +71,4 @@ to django shell
 
     python manage.py shell
 
-    exit on ctrl+d
+exit on ctrl+d

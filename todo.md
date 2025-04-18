@@ -15,10 +15,19 @@ Django tranlate? ('pt-br' and 'America/Sao_Paulo' from settings.py of wechatus)
 Change Model Logics
 Show Model Rord
 Centralizing App on App Folder
+Template Folder config
 View and URLs creating and content render
 Model on Views Integratings
-Template Folder config
 Showing Models on HTML
 Components and organizations of templates
 Static File Config 
 Chat Message sent
+
+
+## Third Part
+
+Insert new Users
+Users Roles
+Get message for other users
+Real Time Database
+Business logic
